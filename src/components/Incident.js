@@ -27,6 +27,7 @@ class Incident {
 
   getDescription() {
     const { comments } = this.data.description;
+    return comments;
   }
 
   getOpenTime() {

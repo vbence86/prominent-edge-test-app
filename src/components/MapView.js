@@ -21,13 +21,13 @@ const MapComponent = compose(
       defaultPosition={new google.maps.LatLng(coords.lat + 0.002, coords.lng +  + 0.001)}
       options={{ closeBoxURL: ``, enableEventPropagation: true }}
     >
-      <div style={{ backgroundColor: `black`, opacity: 0.75, padding: `20px` }}>
+      <div style={{ backgroundColor: `black`, opacity: 0.75, padding: `20px`, width: `200px` }}>
         <div style={{ fontSize: `16px`, fontColor: `#ffffff` }}>
           <p>{incident.getName()}</p>
           <p>{incident.getAddressString()}</p>
-          <p>{incident.getDescription()}</p>
           <p>{incident.getOpenTime()}</p>
           <p>{incident.getSubType()}</p>
+          <span style={{ fontSize: `11px` }}>{incident.getDescription()}</span>
         </div>
       </div>
     </InfoBox>

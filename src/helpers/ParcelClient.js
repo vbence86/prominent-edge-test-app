@@ -9,7 +9,7 @@ function ParcelClient() {
   const client = RESTClient.connect({ endpoint: serviceURL });
 
   return {
-    currentAt: function(options) {
+    query: function(options) {
       const { lat, lng } = options;
       const data = {
         geometry: { 
@@ -24,7 +24,7 @@ function ParcelClient() {
         returnGeometry: true,
         f: 'json',
       };
-      
+
       return client.post('/query', data);
     },
   };

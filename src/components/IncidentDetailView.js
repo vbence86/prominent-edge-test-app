@@ -18,7 +18,7 @@ class IncidentDetailView extends PureComponent {
     const latLong = this.props.incident.getLatLong();
     Promise.all([
       WeatherClient.connect().currentAt(latLong),
-      ParcelClient.connect().query(latLong),
+      //ParcelClient.connect().query(latLong),
     ])
     .then(results => {
       this.onWeatherLoaded(results[0]);
