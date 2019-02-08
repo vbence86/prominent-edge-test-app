@@ -34,5 +34,10 @@ I've spent 7 hours in total. 2 hours of unpacking the problem with the `ArcGIS S
 ## Demo
 ![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/6104164/52496275-32176a80-2bd3-11e9-80ea-799b8168c878.gif)
 
-
+## Tech Stack of mychoice
+- Created a very basic React application bootstrapted by `create-react-app` CLI tool.
+- Reused existing React components such as `reach-google-maps`, `react-dropzone` or `react-spinners`.
+- Employed `react-scripts` a collection of build tools for rapid app development with React.
+- `RESTClient`, a simple implementation of a REST client though made by myself but out of the scope of this assessement.
+- GitHub Pages CLI tool to deploy the application on GitHub Pages
 
