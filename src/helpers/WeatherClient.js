@@ -1,8 +1,7 @@
 import RESTClient from './RESTClient';
 
 /**
- * APIXU Client object that represent a connection to the given abel endpoint 
- * @param {string} serviceURL URL to the service endpoint
+ * APIXU Client object that represent a connection to the implemented APIXU services
  */
 function WeatherClient() {
   const APIKey = '40a6a154b89346f9a53154635190802';
@@ -18,7 +17,6 @@ function WeatherClient() {
       });
     },
   };
-
 }
 
 /**
