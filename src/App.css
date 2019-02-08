@@ -1,32 +1,53 @@
+#root {
+  background-color: #282c34;
+  height: 768px;
+  position: relative;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 100%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropzone {
+  width: 100%;
+  height: 100%;
+}
+
+.dropzone p {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.95);
+  color: lightgreen;
+  margin: 0;
+}
+
+.popup {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 500px;
+  height: 25%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0 40px 0 0;
+  z-index: 9999;
+}
+
+.popup .weather-container {
+  text-align: cener;
+  width: 50%;
+  float: left;
+}
+
+.popup .weather-container p {
+  font-size: 0.9em;
+  margin: 0;
 }
