@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.257b9240.chunk.css",
-  "main.js": "/static/js/main.129c39b7.chunk.js",
-  "main.js.map": "/static/js/main.129c39b7.chunk.js.map",
-  "static/js/1.13eeb203.chunk.js": "/static/js/1.13eeb203.chunk.js",
-  "static/js/1.13eeb203.chunk.js.map": "/static/js/1.13eeb203.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-  "static/css/main.257b9240.chunk.css.map": "/static/css/main.257b9240.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.d9bb8109cf9447aedc263459a8859c16.js": "/precache-manifest.d9bb8109cf9447aedc263459a8859c16.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/prominent-edge-test-app/static/css/main.257b9240.chunk.css",
+  "main.js": "/prominent-edge-test-app/static/js/main.bdfa5e85.chunk.js",
+  "main.js.map": "/prominent-edge-test-app/static/js/main.bdfa5e85.chunk.js.map",
+  "static/js/1.13eeb203.chunk.js": "/prominent-edge-test-app/static/js/1.13eeb203.chunk.js",
+  "static/js/1.13eeb203.chunk.js.map": "/prominent-edge-test-app/static/js/1.13eeb203.chunk.js.map",
+  "runtime~main.js": "/prominent-edge-test-app/static/js/runtime~main.0f60abce.js",
+  "runtime~main.js.map": "/prominent-edge-test-app/static/js/runtime~main.0f60abce.js.map",
+  "static/media/logo.svg": "/prominent-edge-test-app/static/media/logo.5d5d9eef.svg",
+  "static/css/main.257b9240.chunk.css.map": "/prominent-edge-test-app/static/css/main.257b9240.chunk.css.map",
+  "index.html": "/prominent-edge-test-app/index.html",
+  "precache-manifest.2522dba43f5400a0aef206ac597aa004.js": "/prominent-edge-test-app/precache-manifest.2522dba43f5400a0aef206ac597aa004.js",
+  "service-worker.js": "/prominent-edge-test-app/service-worker.js"
 }
