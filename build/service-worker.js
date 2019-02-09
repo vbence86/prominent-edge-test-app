@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/prominent-edge-test-app/precache-manifest.2522dba43f5400a0aef206ac597aa004.js"
+  "/prominent-edge-test-app/precache-manifest.ba4a3c3d43f94d1e22c2717ccaa6f195.js"
 );
 
 workbox.clientsClaim();
