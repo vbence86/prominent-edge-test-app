@@ -38,7 +38,6 @@ function ParcelClient() {
 export default {
   /**
    * Returns an instance of a ParcelClient
-   * @param {string} endpoint Endpoint of the Gift service
    * @return {object} Instance of the ParcelClient 
    */
   connect(){

@@ -26,7 +26,6 @@ function WeatherClient() {
 export default {
   /**
    * Returns an instance of a WeatherClient
-   * @param {string} endpoint Endpoint of the Gift service
    * @return {object} Instance of the WeatherClient 
    */
   connect(){
